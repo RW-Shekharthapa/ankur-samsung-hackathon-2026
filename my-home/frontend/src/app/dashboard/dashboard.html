@@ -1,0 +1,19 @@
+<header class="top">
+  <strong>My Home</strong>
+  <div>
+    <span>Welcome, {{ user()?.name }}</span>
+    <button type="button" (click)="logout()">Logout</button>
+  </div>
+</header>
+
+<main class="content">
+  <h1>Dashboard</h1>
+  <section class="grid">
+    @for (s of stats; track s.label) {
+      <div class="stat">
+        <span class="label">{{ s.label }}</span>
+        <span class="value">{{ s.value }}</span>
+      </div>
+    }
+  </section>
+</main>

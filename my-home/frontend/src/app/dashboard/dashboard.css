@@ -1,0 +1,10 @@
+:host { display: block; min-height: 100vh; background: #f3f4f6; font-family: system-ui, sans-serif; }
+.top { display: flex; justify-content: space-between; align-items: center; padding: 14px 24px; background: #fff; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.top span { margin-right: 12px; color: #374151; }
+.top button { padding: 6px 14px; border: 1px solid #d1d5db; border-radius: 6px; background: #fff; cursor: pointer; }
+.content { padding: 24px; }
+h1 { margin: 0 0 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.stat { display: flex; flex-direction: column; gap: 6px; padding: 20px; background: #fff; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+.label { color: #6b7280; font-size: 13px; }
+.value { font-size: 28px; font-weight: 700; }
